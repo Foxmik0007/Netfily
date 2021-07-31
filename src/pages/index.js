@@ -9,9 +9,9 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
     <header> <nav>
-      <a href="index.js">Home</a>
-      <a href="page-2.js"> Page 2</a>
-      <a href="using-typescript.tsx">Using typescript</a>
+      <Link to ="/">Home</Link>
+      <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </nav> </header>
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
@@ -24,10 +24,6 @@ const IndexPage = () => (
       alt="A Gatsby astronaut"
       style={{ marginBottom: `1.45rem` }}
     />
-    <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
-    </p>
   </Layout>
 )
 

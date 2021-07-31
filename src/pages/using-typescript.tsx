@@ -14,6 +14,13 @@ type DataProps = {
 const UsingTypescript: React.FC<PageProps<DataProps>> = ({ data, path }) => (
   <Layout>
     <Seo title="Using TypeScript" />
+
+    <header> <nav>
+      <Link to ="/">Home</Link>
+      <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
+    </nav> </header>
+
     <h1>Gatsby supports TypeScript by default!</h1>
     <p>
       This means that you can create and write <em>.ts/.tsx</em> files for your
