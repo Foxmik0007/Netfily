@@ -9,7 +9,7 @@ const NotFoundPage = () => (
 
     <header> <nav>
       <Link to ="/">Home</Link>
-      <Link to="/page-2/">Go to page 2</Link>
+      <Link to="/page-2/f">Go to page 2</Link>
       <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
     </nav> </header>
 
